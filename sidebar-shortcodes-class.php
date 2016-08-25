@@ -51,6 +51,8 @@ class Sidebar_Shortcodes {
 	/**
 	 * Creating a sidebar shortcode
 	 *
+	 * @param string $shortcode_name
+	 * 
 	 * @since 1.0.0
 	 */
 	public function create( $shortcode_name ) {
@@ -68,7 +70,7 @@ class Sidebar_Shortcodes {
 	/**
 	 * Registering Sidebars
 	 *
-	 * @param $name
+	 * @param string $name
 	 *
 	 * @since 1.0.0
 	 */
@@ -104,7 +106,7 @@ class Sidebar_Shortcodes {
 	/**
 	 * Getting a sidebar id
 	 *
-	 * @param $shortcode
+	 * @param string $shortcode
 	 *
 	 * @return string
 	 * @since 1.0.0
@@ -116,7 +118,7 @@ class Sidebar_Shortcodes {
 	/**
 	 * Showing shortcode
 	 *
-	 * @param $name
+	 * @param string $name
 	 *
 	 * @since 1.0.0
 	 */
@@ -127,8 +129,8 @@ class Sidebar_Shortcodes {
 	/**
 	 * Magic shortcode function
 	 *
-	 * @param $name
-	 * @param $arguments
+	 * @param string $name
+	 * @param array $arguments
 	 *
 	 * @since 1.0.0
 	 */
@@ -150,7 +152,7 @@ class Sidebar_Shortcodes {
 /**
  * Functionality to add sidebar shortcode
  *
- * @param $shortcode
+ * @param string $shortcode
  * @return int|boolean True if sidebar have been added, 2 if shortcode exists, 3 if widgets_init hook already fired
  *
  * @since 1.0.0
