@@ -53,6 +53,7 @@ class Sidebar_Shortcodes {
 	 *
 	 * @param string $shortcode_name
 	 * 
+	 * @return boolean
 	 * @since 1.0.0
 	 */
 	public function create( $shortcode_name ) {
@@ -118,7 +119,7 @@ class Sidebar_Shortcodes {
 	/**
 	 * Showing shortcode
 	 *
-	 * @param string $name
+	 * @param string $shortcode
 	 *
 	 * @since 1.0.0
 	 */
