@@ -2,6 +2,8 @@
 /**
  * Class Sidebar_Shortcodes
  *
+ * @author Sven Wagener - awesome.ug
+ * @license GNU General Public License v3
  * @package TorroForms
  * @subpackage Components
  * @version 1.0.0
