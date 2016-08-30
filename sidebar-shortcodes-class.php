@@ -2,8 +2,8 @@
 /**
  * Class Sidebar_Shortcodes
  *
- * @package TorroForms
- * @subpackage Components
+ * @author Sven Wagener - awesome.ug
+ * @license GNU General Public License v3
  * @version 1.0.0
  * @since 1.0.0
  */
@@ -53,6 +53,7 @@ class Sidebar_Shortcodes {
 	 *
 	 * @param string $shortcode_name
 	 *
+	 * @return boolean
 	 * @since 1.0.0
 	 */
 	public function create( $shortcode_name ) {
@@ -118,7 +119,7 @@ class Sidebar_Shortcodes {
 	/**
 	 * Showing shortcode
 	 *
-	 * @param string $name
+	 * @param string $shortcode
 	 *
 	 * @since 1.0.0
 	 */
